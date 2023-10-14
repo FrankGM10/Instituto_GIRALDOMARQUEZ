@@ -11,6 +11,6 @@
     <WebStackScaffolding_DbContextTypeFullName>Instituto.Models.dbsenatiContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
-    <NameOfLastUsedPublishProfile>C:\Users\frank\OneDrive\Desktop\C#\Instituto\Properties\PublishProfiles\Instituto20231012185757 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\frank\OneDrive\Desktop\C#\Instituto\Properties\PublishProfiles\Instituto20231013203528 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

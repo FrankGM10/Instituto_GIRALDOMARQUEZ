@@ -1,4 +1,4 @@
-﻿@model Instituto.Models.Estudiante
+﻿@model Instituto.Models.Curso
 
 @{
     ViewData["Title"] = "Delete";
@@ -6,33 +6,33 @@
 
 <h1>Eliminar</h1>
 
-<h3>¿Estás seguro que quieres eliminar esto?</h3>
+<h3>¿Estás seguro de que quieres eliminar esto?</h3>
 <div>
-    <h4>Estudiante</h4>
+    <h4>Curso</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NombreEstudiante)
+            @Html.DisplayNameFor(model => model.NombreCurso)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NombreEstudiante)
+            @Html.DisplayFor(model => model.NombreCurso)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.EdadEstudiante)
+            @Html.DisplayNameFor(model => model.DescripciónCurso)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.EdadEstudiante)
+            @Html.DisplayFor(model => model.DescripciónCurso)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.SexoEstudiante)
+            @Html.DisplayNameFor(model => model.DuraciónCurso)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.SexoEstudiante)
+            @Html.DisplayFor(model => model.DuraciónCurso)
         </dd>
     </dl>
     
     <form asp-action="Delete">
-        <input type="hidden" asp-for="IdEstudiante" />
+        <input type="hidden" asp-for="IdCurso" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |
         <a asp-action="Index">Volver a la lista</a>
     </form>
